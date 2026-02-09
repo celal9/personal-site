@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "tabs": {
+      "home": "Ana Sayfa",
+      "technologies": "Teknolojiler",
+      "demos": "Simülasyonlar",
+      "projects": "Projeler",
+      "contact": "İletişim"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Merhaba, ben Celal.",
+      "subtitle": "Next.js, React ve TypeScript ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum.",
+      "primaryCta": "Projeler",
+      "secondaryCta": "İletişim",
+      "summaryTitle": "Kısa Özet",
+      "summaryItems": [
+        "Responsive UI + UX odaklı component tasarımı",
+        "TypeScript ile güvenli ve sürdürülebilir kod",
+        "GitHub projeleri + mini demo bileşenleri"
+      ]
+    },
+    "links": {
+      "title": "Keşfet",
+      "technologies": {
+        "title": "Teknolojiler",
+        "description": "Kullandığım teknoloji seti + mini kod örnekleri."
+      },
+      "demos": {
+        "title": "Simülasyonlar",
+        "description": "Sayfa içinde çalışan küçük interaktif demolar."
+      },
+      "projects": {
+        "title": "Projeler",
+        "description": "GitHub’dan çekilen güncel repo listesi (fallback’li)."
+      }
+    },
+    "about": {
+      "title": "Hakkımda",
+      "body": "Kullanıcı odaklı arayüzler, temiz mimari ve performans optimizasyonu üzerine çalışıyorum. Bu sayfada kullandığım teknolojileri mini örneklerle, ayrıca GitHub’daki projelerimi canlı verilerle görebilirsin.",
+      "focusTitle": "Odak Alanlarım",
+      "focusItems": [
+        "UI component tasarımı",
+        "Performans & Core Web Vitals",
+        "i18n & çok dilli ürünler",
+        "Temiz kod & refactor"
+      ]
+    },
+    "tech": {
+      "title": "Kullandığım Teknolojiler",
+      "subtitle": "Kısa açıklamalar + küçük kod örnekleri."
+    },
+    "demos": {
+      "title": "Mini Simülasyonlar",
+      "subtitle": "Sayfa içinde çalışan ufak etkileşimli örnekler."
+    },
+    "projects": {
+      "title": "Projeler",
+      "subtitle": "GitHub’dan çekilen (fallback’li) güncel repo listesi."
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Bir proje fikrin varsa konuşalım."
+    }
+  },
+  "technologies": {
+    "hero": {
+      "title": "Teknolojiler",
+      "subtitle": "Projelerimde aktif kullandığım teknoloji seti ve mini örnekler.",
+      "primaryCta": "Stack",
+      "secondaryCta": "Projeler",
+      "summaryTitle": "Bu sayfada",
+      "summaryItems": ["Tech kartları", "Kısa açıklamalar", "Mini kod örnekleri"]
+    },
+    "subnav": {
+      "stack": "Stack",
+      "examples": "Örnekler"
+    },
+    "sections": {
+      "stack": {
+        "title": "Stack",
+        "subtitle": "Her teknoloji için kısa not + mini örnek."
+      },
+      "examples": {
+        "title": "Örnekler",
+        "subtitle": "Sayfa içi navigasyon ve i18n routing örnekleri.",
+        "snippetTitle": "Anchor ile kaydırma"
+      }
+    }
+  },
+  "demosPage": {
+    "hero": {
+      "title": "Simülasyonlar",
+      "subtitle": "Sayfa içinde çalışan küçük interaktif örnekler ve API kullanımı.",
+      "primaryCta": "Demolar",
+      "secondaryCta": "Teknolojiler",
+      "summaryTitle": "İçerik",
+      "summaryItems": ["React state demo", "API fetch demo", "Gerçek kullanım örnekleri"]
+    },
+    "subnav": {
+      "all": "Tümü",
+      "api": "API"
+    },
+    "sections": {
+      "demos": {
+        "title": "Demolar",
+        "subtitle": "Bileşenler burada çalışır."
+      },
+      "api": {
+        "title": "API",
+        "subtitle": "Bu projede kullanılan örnek API endpoint’i.",
+        "responseTitle": "Örnek response"
+      }
+    }
+  },
+  "projectsPage": {
+    "hero": {
+      "title": "Projeler",
+      "subtitle": "GitHub projelerim: canlı veri (fallback’li) ve hızlı erişim linkleri.",
+      "primaryCta": "Liste",
+      "secondaryCta": "İletişim",
+      "summaryTitle": "Öne çıkanlar",
+      "summaryItems": ["Repo listesi", "Yıldız / fork bilgileri", "Live + Code linkleri"]
+    },
+    "subnav": {
+      "list": "Liste",
+      "simulations": "Simülasyonlar",
+      "filters": "Filtreler"
+    },
+    "sections": {
+      "projects": {
+        "title": "Repo Listesi",
+        "subtitle": "GitHub API + statik fallback."
+      },
+      "simulations": {
+        "title": "Simülasyon Vitrini",
+        "subtitle": "Seçili GitHub projeleri için kısa video önizlemeleri.",
+        "ctaLabel": "Simülasyonları yeni sekmede aç",
+        "ctaHint": "Sayfa hızlı kalsın diye ayrı sekmede çalışır.",
+        "playLabel": "Oyna",
+        "codeLabel": "Kod"
+      },
+      "filters": {
+        "title": "Filtreler",
+        "subtitle": "Basit filtre mantığı (geliştirilebilir).",
+        "body": "İstersen bir sonraki adımda arama kutusu + dil/etiket filtreleri ekleyip listeyi client-side filtreleyebiliriz."
+      }
+    }
+  }
+}
+
+

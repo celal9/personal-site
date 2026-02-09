@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "tabs": {
+      "home": "Home",
+      "technologies": "Technologies",
+      "demos": "Demos",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Hi, I'm Celal.",
+      "subtitle": "I build modern, fast and scalable web applications with Next.js, React and TypeScript.",
+      "primaryCta": "Projects",
+      "secondaryCta": "Contact",
+      "summaryTitle": "Quick Summary",
+      "summaryItems": [
+        "Responsive UI + UX-focused component design",
+        "Safe & maintainable code with TypeScript",
+        "GitHub projects + mini demo components"
+      ]
+    },
+    "links": {
+      "title": "Explore",
+      "technologies": {
+        "title": "Technologies",
+        "description": "My tech stack + small code examples."
+      },
+      "demos": {
+        "title": "Demos",
+        "description": "Small interactive demos running on the page."
+      },
+      "projects": {
+        "title": "Projects",
+        "description": "Repo list fetched from GitHub (with fallback)."
+      }
+    },
+    "about": {
+      "title": "About",
+      "body": "I focus on user-centric UI, clean architecture and performance. On this page you can see the technologies I use with small examples, and my GitHub projects via live data (with fallback).",
+      "focusTitle": "Focus Areas",
+      "focusItems": [
+        "UI component design",
+        "Performance & Core Web Vitals",
+        "i18n & multilingual products",
+        "Clean code & refactoring"
+      ]
+    },
+    "tech": {
+      "title": "Tech I Use",
+      "subtitle": "Short explanations + tiny code examples."
+    },
+    "demos": {
+      "title": "Mini Demos",
+      "subtitle": "Small interactive examples running on the page."
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "Up-to-date repo list fetched from GitHub (with fallback)."
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "If you have an idea, let's talk."
+    }
+  },
+  "technologies": {
+    "hero": {
+      "title": "Technologies",
+      "subtitle": "My active tech stack and tiny examples I use in real projects.",
+      "primaryCta": "Stack",
+      "secondaryCta": "Projects",
+      "summaryTitle": "On this page",
+      "summaryItems": ["Tech cards", "Short notes", "Tiny code examples"]
+    },
+    "subnav": {
+      "stack": "Stack",
+      "examples": "Examples"
+    },
+    "sections": {
+      "stack": {
+        "title": "Stack",
+        "subtitle": "Each item includes a note + a tiny snippet."
+      },
+      "examples": {
+        "title": "Examples",
+        "subtitle": "In-page navigation and i18n routing examples.",
+        "snippetTitle": "Scroll with anchors"
+      }
+    }
+  },
+  "demosPage": {
+    "hero": {
+      "title": "Demos",
+      "subtitle": "Small interactive examples and API usage.",
+      "primaryCta": "Demos",
+      "secondaryCta": "Technologies",
+      "summaryTitle": "Includes",
+      "summaryItems": ["React state demo", "API fetch demo", "Practical examples"]
+    },
+    "subnav": {
+      "all": "All",
+      "api": "API"
+    },
+    "sections": {
+      "demos": {
+        "title": "Demos",
+        "subtitle": "These components run on the page."
+      },
+      "api": {
+        "title": "API",
+        "subtitle": "Example API endpoint used in this project.",
+        "responseTitle": "Example response"
+      }
+    }
+  },
+  "projectsPage": {
+    "hero": {
+      "title": "Projects",
+      "subtitle": "My GitHub projects: live data (with fallback) and quick links.",
+      "primaryCta": "List",
+      "secondaryCta": "Contact",
+      "summaryTitle": "Highlights",
+      "summaryItems": ["Repo list", "Stars / forks", "Live + Code links"]
+    },
+    "subnav": {
+      "list": "List",
+      "simulations": "Simulations",
+      "filters": "Filters"
+    },
+    "sections": {
+      "projects": {
+        "title": "Repository List",
+        "subtitle": "GitHub API + static fallback."
+      },
+      "simulations": {
+        "title": "Simulation Showcase",
+        "subtitle": "Short video previews for selected GitHub projects.",
+        "ctaLabel": "Open simulations in new tab",
+        "ctaHint": "Runs separately to keep this page fast.",
+        "playLabel": "Play",
+        "codeLabel": "Code"
+      },
+      "filters": {
+        "title": "Filters",
+        "subtitle": "Basic filtering logic (extensible).",
+        "body": "Next step: add a search box + language/topic filters and filter the list client-side."
+      }
+    }
+  }
+}
+
+

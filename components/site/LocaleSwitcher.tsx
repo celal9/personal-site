@@ -8,7 +8,7 @@ export function LocaleSwitcher({ locale }: Readonly<{ locale: Locale }>) {
   const pathname = usePathname();
 
   return (
-    <div className="flex items-center gap-1 rounded-full border border-black/10 bg-white/60 p-1 text-xs backdrop-blur dark:border-white/10 dark:bg-white/5">
+    <div className="text-micro flex items-center gap-1 rounded-full border border-black/10 bg-white/60 p-1 backdrop-blur dark:border-white/10 dark:bg-white/5">
       {routing.locales.map((l) => {
         const isActive = l === locale;
         return (

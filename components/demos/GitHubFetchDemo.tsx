@@ -28,17 +28,17 @@ export function GitHubFetchDemo() {
 
   return (
     <div className="rounded-2xl border border-black/10 bg-white/60 p-5 backdrop-blur dark:border-white/10 dark:bg-white/5">
-      <div className="text-sm font-semibold tracking-tight">GitHub Fetch</div>
-      <p className="mt-1 text-sm text-zinc-700 dark:text-zinc-200">
+      <div className="text-body font-semibold tracking-tight">GitHub Fetch</div>
+      <p className="text-body mt-1 text-zinc-700 dark:text-zinc-200">
         API route üzerinden repo listesi (fallback’li).
       </p>
 
-      <div className="mt-4 text-sm text-zinc-700 dark:text-zinc-200">
+      <div className="text-body mt-4 text-zinc-700 dark:text-zinc-200">
         {error ? (
           <div className="text-red-600 dark:text-red-400">{error}</div>
         ) : data ? (
           <div>
-            <div className="text-xs text-zinc-500 dark:text-zinc-400">
+            <div className="text-micro text-zinc-500 dark:text-zinc-400">
               source: <span className="font-medium">{data.source}</span>
             </div>
             <ul className="mt-3 space-y-2">
@@ -52,7 +52,7 @@ export function GitHubFetchDemo() {
                   >
                     {p.name}
                   </a>
-                  <span className="shrink-0 text-xs text-zinc-500 dark:text-zinc-400">
+                  <span className="text-micro shrink-0 text-zinc-500 dark:text-zinc-400">
                     {p.language ?? "—"}
                   </span>
                 </li>

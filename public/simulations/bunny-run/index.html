@@ -81,12 +81,14 @@
       function loadGame() {
         if (loaded) return;
         loaded = true;
+        const rawBase = window.location.pathname.replace(/\/index\.html$/, "/");
+        const basePath = rawBase.endsWith("/") ? rawBase : `${rawBase}/`;
         window.Module = {
           canvas,
-          locateFile: (path) => path,
+          locateFile: (path) => `${basePath}${path}`,
         };
         const script = document.createElement("script");
-        script.src = "./bunny-run.js";
+        script.src = `${basePath}bunny-run.js`;
         script.onload = () => {
           overlay.style.display = "none";
           ensureFullscreen();

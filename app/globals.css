@@ -148,6 +148,36 @@ body {
   }
 }
 
+@layer components {
+  .text-display {
+    @apply text-3xl font-semibold tracking-tight sm:text-4xl lg:text-5xl;
+  }
+
+  .text-h1 {
+    @apply text-2xl font-semibold tracking-tight sm:text-3xl lg:text-4xl;
+  }
+
+  .text-h2 {
+    @apply text-xl font-semibold tracking-tight sm:text-2xl lg:text-3xl;
+  }
+
+  .text-lead {
+    @apply text-base leading-7 sm:text-lg;
+  }
+
+  .text-body {
+    @apply text-sm leading-6 sm:text-base;
+  }
+
+  .text-label {
+    @apply text-xs font-medium uppercase tracking-wide sm:text-sm;
+  }
+
+  .text-micro {
+    @apply text-[11px] leading-5 sm:text-xs;
+  }
+}
+
 /* Hide devtools indicator in development */
 nextjs-devtools,
 [data-nextjs-devtools],

@@ -23,12 +23,12 @@ export async function Navbar({ locale }: Readonly<{ locale: Locale }>) {
         <Link
           href="/"
           locale={locale}
-          className="text-sm font-semibold tracking-tight text-zinc-900 dark:text-white"
+          className="text-body font-semibold tracking-tight text-zinc-900 dark:text-white"
         >
           {site.name}
         </Link>
 
-        <nav className="hidden items-center gap-5 text-sm text-zinc-700 dark:text-zinc-200 md:flex">
+        <nav className="text-body hidden items-center gap-5 text-zinc-700 dark:text-zinc-200 md:flex">
           {tabs.map((it) => (
             <Link
               key={it.href}
@@ -54,7 +54,7 @@ export async function Navbar({ locale }: Readonly<{ locale: Locale }>) {
             href={site.socials.github}
             target="_blank"
             rel="noreferrer"
-            className="hidden rounded-full border border-black/10 bg-white/60 px-3 py-1.5 text-xs font-medium text-zinc-700 backdrop-blur transition hover:-translate-y-0.5 hover:bg-black/5 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:bg-white/10 sm:inline-flex"
+            className="text-micro hidden rounded-full border border-black/10 bg-white/60 px-3 py-1.5 font-medium text-zinc-700 backdrop-blur transition hover:-translate-y-0.5 hover:bg-black/5 dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:bg-white/10 sm:inline-flex"
           >
             GitHub
           </a>

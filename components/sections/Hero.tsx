@@ -27,12 +27,12 @@ export function Hero({
   const Secondary = secondaryHref.startsWith("#") ? "a" : Link;
 
   return (
-    <section className="py-16 sm:py-24">
+    <section className="gap-y-10   py-16 sm:py-24">
       <Container>
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
             <Reveal>
-              <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/60 px-3 py-1 text-xs font-medium text-zinc-700 backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">
+              <div className="text-micro inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/60 px-3 py-1 font-medium text-zinc-700 backdrop-blur dark:border-white/10 dark:bg-white/5 dark:text-zinc-200">
                 <span>{site.role}</span>
                 <span className="text-zinc-400">•</span>
                 <span>{site.location}</span>
@@ -40,14 +40,14 @@ export function Hero({
             </Reveal>
 
             <Reveal delay={0.04}>
-              <h1 className="mt-6 text-balance text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
+              <h1 className="text-display mt-6 text-balance">
                 <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-indigo-400">
                   {title}
                 </span>
               </h1>
             </Reveal>
             <Reveal delay={0.08}>
-              <p className="mt-4 max-w-xl text-pretty text-base leading-7 text-zinc-700 dark:text-zinc-200">
+              <p className="text-lead mt-4 max-w-xl text-pretty text-zinc-700 dark:text-zinc-200">
                 {subtitle}
               </p>
             </Reveal>
@@ -56,13 +56,13 @@ export function Hero({
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <Primary
                   href={primaryHref}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white shadow-sm shadow-black/10 transition hover:-translate-y-0.5 hover:bg-zinc-800 hover:shadow-md hover:shadow-black/10 dark:bg-white dark:text-black dark:shadow-white/10 dark:hover:bg-zinc-200"
+                  className="text-body inline-flex items-center justify-center gap-2 rounded-full bg-black px-5 py-2.5 font-medium leading-none text-white shadow-sm shadow-black/10 transition hover:-translate-y-0.5 hover:bg-zinc-800 hover:shadow-md hover:shadow-black/10 dark:bg-white dark:text-black dark:shadow-white/10 dark:hover:bg-zinc-200"
                 >
                   {primaryCta} <ArrowRight className="h-4 w-4" />
                 </Primary>
                 <Secondary
                   href={secondaryHref}
-                  className="inline-flex items-center justify-center rounded-full border border-black/10 bg-white/60 px-5 py-2.5 text-sm font-medium text-zinc-900 backdrop-blur transition hover:-translate-y-0.5 hover:bg-black/5 dark:border-white/10 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
+                  className="text-body inline-flex items-center justify-center rounded-full border border-black/10 bg-white/60 px-5 py-2.5 font-medium leading-none text-zinc-900 backdrop-blur transition hover:-translate-y-0.5 hover:bg-black/5 dark:border-white/10 dark:bg-white/5 dark:text-white dark:hover:bg-white/10"
                 >
                   {secondaryCta}
                 </Secondary>
@@ -72,10 +72,10 @@ export function Hero({
 
           <Reveal delay={0.1}>
             <div className="rounded-3xl border border-black/10 bg-white/60 p-6 shadow-sm shadow-black/5 backdrop-blur dark:border-white/10 dark:bg-white/5 dark:shadow-black/40">
-              <div className="text-xs font-medium text-zinc-600 dark:text-zinc-300">
+              <div className="text-micro font-medium text-zinc-600 dark:text-zinc-300">
                 {summaryTitle}
               </div>
-              <ul className="mt-4 space-y-3 text-sm text-zinc-700 dark:text-zinc-200">
+              <ul className="text-body mt-4 space-y-3 text-zinc-700 dark:text-zinc-200">
                 {summaryItems.map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span className="mt-1 h-1.5 w-1.5 rounded-full bg-blue-500" />
@@ -89,7 +89,7 @@ export function Hero({
                   href={site.socials.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-zinc-900 hover:underline dark:text-white"
+                  className="text-body inline-flex items-center gap-2 font-medium text-zinc-900 hover:underline dark:text-white"
                 >
                   GitHub profilim <ArrowRight className="h-4 w-4" />
                 </a>

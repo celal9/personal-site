@@ -55,9 +55,9 @@
       className={containerClassName}
      >
        {isExpanded ? (
-        <aside className="h-full w-[320px] shrink-0 border-r border-black/10 bg-white/60 backdrop-blur dark:border-white/10 dark:bg-white/5">
+         <aside className="h-full w-[320px] shrink-0 border-r border-black/10 bg-white/60 backdrop-blur dark:border-white/10 dark:bg-white/5">
           <div className="flex items-center justify-between px-5 py-4">
-            <div className="text-sm font-semibold text-zinc-900 dark:text-white">
+            <div className="text-body font-semibold text-zinc-900 dark:text-white">
               {sidebarTitle}
             </div>
              <button
@@ -73,7 +73,7 @@
             {sidebarContent ? (
               sidebarContent
             ) : shortcuts.length === 0 ? (
-              <div className="rounded-lg border border-dashed border-black/10 bg-white/70 p-3 text-xs text-zinc-500 backdrop-blur dark:border-white/10 dark:bg-white/10 dark:text-zinc-300">
+              <div className="text-micro rounded-lg border border-dashed border-black/10 bg-white/70 p-3 text-zinc-500 backdrop-blur dark:border-white/10 dark:bg-white/10 dark:text-zinc-300">
                 Kisayollar burada listelenecek.
               </div>
             ) : (
@@ -81,7 +81,7 @@
                 <a
                   key={item.id}
                   href={item.href}
-                  className="flex items-center justify-between rounded-lg border border-black/10 bg-white/70 px-3 py-2 text-xs text-zinc-700 backdrop-blur transition hover:border-black/20 hover:bg-white dark:border-white/10 dark:bg-white/10 dark:text-zinc-200 dark:hover:bg-white/20"
+                  className="text-micro flex items-center justify-between rounded-lg border border-black/10 bg-white/70 px-3 py-2 text-zinc-700 backdrop-blur transition hover:border-black/20 hover:bg-white dark:border-white/10 dark:bg-white/10 dark:text-zinc-200 dark:hover:bg-white/20"
                 >
                   <span className="truncate">{item.label}</span>
                   <ChevronRight size={16} />
@@ -94,7 +94,7 @@
  
        <div className="flex h-full w-full flex-col">
         <header className="flex items-center justify-between border-b border-black/10 px-4 py-3 dark:border-white/10">
-          <div className="text-sm font-semibold text-zinc-900 dark:text-white">{title}</div>
+          <div className="text-body font-semibold text-zinc-900 dark:text-white">{title}</div>
            <div className="flex items-center gap-2">
              <button
                type="button"
@@ -115,9 +115,9 @@
            </div>
          </header>
  
-        <div className="flex-1 overflow-y-auto px-4 py-4 text-sm text-zinc-700 dark:text-zinc-200">
+        <div className="text-body flex-1 overflow-y-auto px-4 py-4 text-zinc-700 dark:text-zinc-200">
           {body ?? (
-            <div className="rounded-lg border border-dashed border-black/10 bg-white/70 p-4 text-xs text-zinc-500 backdrop-blur dark:border-white/10 dark:bg-white/10 dark:text-zinc-300">
+            <div className="text-micro rounded-lg border border-dashed border-black/10 bg-white/70 p-4 text-zinc-500 backdrop-blur dark:border-white/10 dark:bg-white/10 dark:text-zinc-300">
               Sohbet icerigi burada olacak. (Placeholder)
             </div>
           )}
@@ -128,11 +128,11 @@
             <div className="flex items-center gap-2">
               <input
                 placeholder="Mesaj yaz..."
-                className="h-10 flex-1 rounded-lg border border-black/10 bg-white/70 px-3 text-sm outline-none backdrop-blur dark:border-white/10 dark:bg-white/10 dark:text-white"
+                className="text-body h-10 flex-1 rounded-lg border border-black/10 bg-white/70 px-3 outline-none backdrop-blur dark:border-white/10 dark:bg-white/10 dark:text-white"
               />
               <button
                 type="button"
-                className="rounded-lg bg-zinc-900 px-4 py-2 text-xs font-semibold text-white transition hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-white/90"
+                className="text-micro rounded-lg bg-zinc-900 px-4 py-2 font-semibold text-white transition hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-white/90"
               >
                 Gonder
               </button>

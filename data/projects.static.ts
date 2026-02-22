@@ -20,6 +20,14 @@ export const staticProjects: Project[] = [
     topics: ["nextjs", "portfolio", "i18n"],
   },
   {
+    name: "Ceng-477-hw3-OpenGL-with-Programmable-Shaders-Bunny-Run",
+    description: "C++ ve GLSL ile geliştirilen Bunny Run simülasyonu.",
+    url: "https://github.com/celal9/Ceng-477-hw3-OpenGL-with-Programmable-Shaders-Bunny-Run",
+    homepage: null,
+    language: "C++",
+    topics: ["opengl", "glsl", "graphics"],
+  },
+  {
     name: "example-project",
     description: "GitHub kullanıcı adını ayarlayınca burası otomatik dolar.",
     url: "https://github.com/YOUR_GITHUB_USERNAME/example-project",

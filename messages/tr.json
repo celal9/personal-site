@@ -134,9 +134,9 @@
         "subtitle": "GitHub API + statik fallback."
       },
       "simulations": {
-        "title": "Simülasyon Vitrini",
-        "subtitle": "Seçili GitHub projeleri için kısa video önizlemeleri.",
-        "ctaLabel": "Simülasyonları yeni sekmede aç",
+        "title": "Oynanabilir Simülasyonlar",
+        "subtitle": "Bunny Run (CENG-477) ve seçili GitHub projeleri için kısa önizlemeler.",
+        "ctaLabel": "Yeni sekmede aç",
         "ctaHint": "Sayfa hızlı kalsın diye ayrı sekmede çalışır.",
         "playLabel": "Oyna",
         "codeLabel": "Kod"

@@ -18,7 +18,7 @@ export default async function TechnologiesPage({
   const summaryItems = t.raw("hero.summaryItems") as string[];
 
   return (
-    <div>
+    <div className="flex flex-col overflow-x-hidden">
       <Hero
         title={t("hero.title")}
         subtitle={t("hero.subtitle")}

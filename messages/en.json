@@ -134,10 +134,10 @@
         "subtitle": "GitHub API + static fallback."
       },
       "simulations": {
-        "title": "Simulation Showcase",
-        "subtitle": "Short video previews for selected GitHub projects.",
-        "ctaLabel": "Open simulations in new tab",
-        "ctaHint": "Runs separately to keep this page fast.",
+        "title": "Playable Simulations",
+        "subtitle": "Bunny Run (CENG-477) and selected GitHub projects with short previews.",
+        "ctaLabel": "Open in a new tab",
+        "ctaHint": "Runs separately so this page stays fast.",
         "playLabel": "Play",
         "codeLabel": "Code"
       },

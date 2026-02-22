@@ -22,7 +22,7 @@ export function MobileNav({ items }: Readonly<{ items: Item[] }>) {
 
       {open ? (
         <div className="absolute left-0 right-0 top-16 border-b border-black/5 bg-white/95 p-4 backdrop-blur dark:border-white/10 dark:bg-black/90">
-          <nav className="flex flex-col gap-2 text-sm">
+          <nav className="text-body flex flex-col gap-2">
             {items.map((it) => (
               <a
                 key={it.href}

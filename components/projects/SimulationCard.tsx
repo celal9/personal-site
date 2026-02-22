@@ -23,15 +23,15 @@ export function SimulationCard({
       <div className="overflow-hidden rounded-xl border border-black/5 bg-black/5 dark:border-white/10 dark:bg-white/10">
         {playable &&(
           <div className="relative">
-            <div className="flex aspect-video w-full items-center justify-center bg-linear-to-br from-black/60 via-black/40 to-black/70 text-xs text-white/80">
+            <div className="text-micro flex aspect-video w-full items-center justify-center bg-linear-to-br from-black/60 via-black/40 to-black/70 text-white/80">
               Playable simülasyon
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-black/40 text-xs text-white">
+            <div className="text-micro absolute inset-0 flex flex-col items-center justify-center gap-3 bg-black/40 text-white">
               <div>Yeni sekmede oyna</div>
               <button
                 type="button"
                 onClick={handlePlay}
-                className="rounded-full border border-white/30 bg-white/90 px-4 py-1 text-xs font-semibold text-zinc-900 transition hover:bg-white"
+                className="text-micro rounded-full border border-white/30 bg-white/90 px-4 py-1 font-semibold text-zinc-900 transition hover:bg-white"
               >
                 Oyna
               </button>
@@ -39,7 +39,7 @@ export function SimulationCard({
                 href={playableUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="text-[11px] text-white/80 underline underline-offset-2"
+                className="text-micro text-white/80 underline underline-offset-2"
               >
                 Linki yeni sekmede ac
               </a>
@@ -49,15 +49,15 @@ export function SimulationCard({
       </div>
 
       <div className="mt-4">
-        <div className="text-sm font-semibold text-zinc-900 dark:text-white">
+        <div className="text-body font-semibold text-zinc-900 dark:text-white">
           {simulation.title}
         </div>
-        <p className="mt-2 text-sm leading-6 text-zinc-700 dark:text-zinc-200">
+        <p className="text-body mt-2 text-zinc-700 dark:text-zinc-200">
           {simulation.description}
         </p>
 
         {simulation.tags && simulation.tags.length > 0 ? (
-          <div className="mt-3 flex flex-wrap gap-2 text-[11px] text-zinc-600 dark:text-zinc-300">
+          <div className="text-micro mt-3 flex flex-wrap gap-2 text-zinc-600 dark:text-zinc-300">
             {simulation.tags.map((tag) => (
               <span
                 key={tag}
@@ -69,7 +69,7 @@ export function SimulationCard({
           </div>
         ) : null}
 
-        <div className="mt-4 flex flex-wrap gap-3 text-xs text-zinc-600 dark:text-zinc-300">
+        <div className="text-micro mt-4 flex flex-wrap gap-3 text-zinc-600 dark:text-zinc-300">
      
           {simulation.repoUrl ? (
             <a

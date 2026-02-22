@@ -5,10 +5,10 @@ export function Footer() {
   return (
     <footer className="border-t border-black/5 py-10 dark:border-white/10">
       <Container className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-        <div className="text-sm text-zinc-600 dark:text-zinc-300">
+        <div className="text-body text-zinc-600 dark:text-zinc-300">
           © {new Date().getFullYear()} {site.name}
         </div>
-        <div className="flex items-center gap-3 text-sm">
+        <div className="text-body flex items-center gap-3">
           <a
             href={site.socials.github}
             target="_blank"

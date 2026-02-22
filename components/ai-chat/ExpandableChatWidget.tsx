@@ -31,11 +31,11 @@
  
    return (
      <>
-       <button
+      <button
          type="button"
          onClick={() => setIsOpen(true)}
          aria-label="Sohbeti ac"
-         className="fixed bottom-6 right-6 z-9999 inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/90 px-4 py-2 text-xs font-semibold text-zinc-700 shadow-lg shadow-black/10 backdrop-blur transition hover:-translate-y-0.5 hover:bg-white dark:border-white/10 dark:bg-white/10 dark:text-zinc-200"
+        className="text-micro fixed bottom-6 right-6 z-9999 inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/90 px-4 py-2 font-semibold text-zinc-700 shadow-lg shadow-black/10 backdrop-blur transition hover:-translate-y-0.5 hover:bg-white dark:border-white/10 dark:bg-white/10 dark:text-zinc-200"
          data-ai-chat-launcher
        >
          <MessageCircle size={16} />

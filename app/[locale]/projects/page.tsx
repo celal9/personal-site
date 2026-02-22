@@ -15,7 +15,6 @@ export default async function ProjectsPage({
 
   const t = await getTranslations("projectsPage");
   const summaryItems = t.raw("hero.summaryItems") as string[];
-  const simulationsBaseHref = "/simulations";
 
   return (
     <div>
@@ -48,7 +47,8 @@ export default async function ProjectsPage({
         simulationsHint={t("sections.simulations.ctaHint")}
         simulationsPlayLabel={t("sections.simulations.playLabel")}
         simulationsCodeLabel={t("sections.simulations.codeLabel")}
-        simulationsBaseHref={simulationsBaseHref}
+        otherTitle={t("sections.other.title")}
+        otherSubtitle={t("sections.other.subtitle")}
       />
 
       <Section id="filters" title={t("sections.filters.title")} subtitle={t("sections.filters.subtitle")}>

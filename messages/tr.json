@@ -141,6 +141,10 @@
         "playLabel": "Oyna",
         "codeLabel": "Kod"
       },
+      "other": {
+        "title": "Diğer Projeler",
+        "subtitle": "Akademik, backend ve algoritma odaklı çalışmalar kısa listede."
+      },
       "filters": {
         "title": "Filtreler",
         "subtitle": "Basit filtre mantığı (geliştirilebilir).",

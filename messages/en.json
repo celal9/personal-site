@@ -141,6 +141,10 @@
         "playLabel": "Play",
         "codeLabel": "Code"
       },
+      "other": {
+        "title": "Other Projects",
+        "subtitle": "Academic, backend, and algorithmic work listed compactly."
+      },
       "filters": {
         "title": "Filters",
         "subtitle": "Basic filtering logic (extensible).",

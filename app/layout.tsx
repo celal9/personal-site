@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { ChatWidget } from "@/components/ChatWidget";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -36,6 +37,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-dvh`}
       >
         <ThemeProvider>{children}</ThemeProvider>
+        <ChatWidget />
       </body>
     </html>
   );

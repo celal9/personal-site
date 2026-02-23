@@ -36,7 +36,7 @@ export default function FloatingShortcutMenu({
       </button>
 
       {isOpen ? (
-        <div className="fixed inset-0 z-9999 flex items-end justify-end bg-black/40 p-4 sm:p-6">
+        <div className="fixed inset-0 z-9999 flex items-end justify-start bg-black/40 p-4 sm:p-6">
           <aside className="w-full max-w-sm rounded-2xl border border-black/10 bg-white/90 p-4 shadow-2xl backdrop-blur dark:border-white/10 dark:bg-white/10">
             <div className="flex items-center justify-between">
               <div className="text-body font-semibold text-zinc-900 dark:text-white">
